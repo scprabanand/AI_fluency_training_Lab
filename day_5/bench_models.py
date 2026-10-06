@@ -52,7 +52,7 @@ MODELS = [
     os.getenv("MODEL", "openai/gpt-oss-120b"),
     os.getenv("MODEL2", "qwen/qwen3.8-27b"),
     os.getenv("MODEL3", "meta-llama/llama-prompt-guard-2-86m"),
-    os.getenv("MODEL4", "canopylabs/orpheus-v1-english")
+    os.getenv("MODEL4", "whisper-large-v3")
 ]
 
 if not API_KEY:
